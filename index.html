@@ -6,7 +6,8 @@
   </head>
   <body>
     <div class="wrapper">
-        <h1>Weekly Planner</h1>
+        <h1>The Work Tackler</h1>
+        <h3>Let's get this done</h3>
         <div class="container">
           <div class="column">
             <h2>Sunday</h2>
@@ -37,7 +38,16 @@
             <div class="box"></div>
           </div>
         </div>
-      </div>
       
+      <form>
+        <label for="event-title">Event Title:</label>
+        <input type="text" id="event-title" name="event-title" placeholder="Enter event title...">
+        
+        <label for="event-duration">Event Duration:</label>
+        <input type="number" id="event-duration" name="event-duration" placeholder="Enter event duration in minutes...">
+        
+        <button type="submit">Add Event</button>
+      </form>
+    </div>
   </body>
 </html>
