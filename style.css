@@ -10,8 +10,9 @@ body {
 }
 
 .column {
-	flex: 1;
-	padding: 80px;
+	flex-basis: calc(100% / 7);
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .column-header {
@@ -118,7 +119,3 @@ body {
 	color: #888;
 	cursor: pointer;
 }
-
-div {
-	column-count: 3;
-  }
