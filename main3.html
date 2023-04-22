@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Schedule</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <h1>Event Schedule</h1>
+  <div class="container">
+    <div class="day">Monday</div>
+    <div class="day">Tuesday</div>
+    <div class="day">Wednesday</div>
+    <div class="day">Thursday</div>
+    <div class="day">Friday</div>
+    <div class="day">Saturday</div>
+    <div class="day">Sunday</div>
+    <div class="time">
+      <div>00:00</div>
+      <div>01:00</div>
+      <div>02:00</div>
+      <div>03:00</div>
+      <div>04:00</div>
+      <div>05:00</div>
+      <div>06:00</div>
+      <div>07:00</div>
+      <div>08:00</div>
+      <div>09:00</div>
+      <div>10:00</div>
+      <div>11:00</div>
+      <div>12:00</div>
+      <div>13:00</div>
+      <div>14:00</div>
+      <div>15:00</div>
+      <div>16:00</div>
+      <div>17:00</div>
+      <div>18:00</div>
+      <div>19:00</div>
+      <div>20:00</div>
+      <div>21:00</div>
+      <div>22:00</div>
+      <div>23:00</div>
+    </div>
+    <div class="column">
+      <div class="add-event-btn">+</div>
+      <div class="events"></div>
+    </div>
+    <div class="column">
+      <div class="add-event-btn">+</div>
+      <div class="events"></div>
+    </div>
+    <div class="column">
+      <div class="add-event-btn">+</div>
+      <div class="events"></div>
+    </div>
+    <div class="column">
+      <div class="add-event-btn">+</div>
+      <div class="events"></div>
+    </div>
+    <div class="column">
+      <div class="add-event-btn">+</div>
+      <div class="events"></div>
+    </div>
+    <div class="column">
+      <div class="add-event-btn">+</div>
+      <div class="events"></div>
+    </div>
+    <div class="column">
+      <div class="add-event-btn">+</div>
+      <div class="events"></div>
+    </div>
+  </div>
+
+  <div class="popup">
+    <div class="popup-content">
+      <span class="close">&times;</span>
+      <h2>Add Event</h2>
+      <form>
+        <label for="event-name">Event Name:</label>
+        <input type="text" id="event-name" name="event-name"><br><br>
+        <label for="event-location">Event Location:</label>
+        <input type="text" id="event-location" name="event-location"><br><br>
+        <label for="event-duration">Event Duration:</label>
+        <input type="number" id="event-duration" name="event-duration" min="1" max="24"><br><br>
+        <button type="submit">Add Event</button>
+      </form>
+    </div>
